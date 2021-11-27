@@ -9,7 +9,7 @@ function click2() {
 	}
 }
 function click3() {
-	var head = document.getElementById('heading');
+	var head = document.getElementsByClassName('heading');
 	for (var i = 0; i < head.length; i++) {
 		head[i].innerHTML = 'Tekst pomenialsia.';
 	}
