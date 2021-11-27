@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="Function()">
+    <div>
+        <button onclick="click1()">Pervaia knopka</button>
+        <button onclick="click2()">Vtoraia knopka</button>
+        <button onclick="click3()">Tretia knopka</button>
+    <p id="first">Nazhmite na pervuiu knopku.</p>
+    <p class="a">Nazhmite na vtoruiu knopku.</p>
+    <p class="a">Togda vse abzacy s odinakovym klassom,</p>
+    <p class="a">pomeniaiut svoio soderzhimoe.</p>
+    <h1 id="heading">Pri</h1>
+    <h2 id="heading">nazhatii</h2>
+    <h3 id="heading">na tretiu</h3>
+    <h4 id="heading">knopku</h4>
+    <h5 id="heading">soderzhimoe</h5>
+    <h6 id="heading">pomeniaietsia</h6>
+</div>
+<div>
+</br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8NqO_CTK7XcCDqD10QUiVMw7bNrGHn3XIRP9rd1kSzQKGviFc_24Vpdi2bz04IFpy1E&usqp=CAU" id="img">
+</br>
+    <button onclick="clicking1()">Drugaia pervaia knopka</button>
+    <button onclick="clicking2()">Drugaia vtoraia knopka</button>
+</div>
+<div>
+    <p id="p">Izmenenie stylia elementa po DOM.</p>
+    <button type="button"
+    onclick="document.getElementById('p').style.color = 'red'">
+    Izmenenie cveta</button>
+</div>
+<div>
+</br>
+    <form>
+        Choose something:
+          <select id="something" onchange="prefer()">
+            <option value="Something">Something</option>
+            <option value="Chto_to">Chto_to</option>
+          </select>
+        </form>
+</div>
+<h1 onmouseover="style.color='red'" onmouseout="style.color='black'">Mouse over.</h1>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="fade">Click to fade in/out</button>
+<button id="animation">Animation</button>
+<button id="go">Go</button>
+<button id="stop">Stop</button>
+
+<div class="div" style="position:absolute;">
+<img src="https://hsto.org/getpro/habr/post_images/99b/37e/278/99b37e278226b136bac04f85ab8e238c.png">
+</div>
+</body>
+</html>
